@@ -41,7 +41,7 @@ div#shell960 {
 }
 /* end 960px-wide image styles */	
 
-
+/* start typeface styles */
 #shell960 p {
 	font-size:1.3em;
 }
@@ -49,9 +49,20 @@ div#shell960 {
 #shell960 h3 {	
 	font-size:2.2em;
 }
+/* end typeface styles */
+
+/* start list styles */
+
+#shell960 ul {
+	list-style: none;
+}
 
 span.highlight {
 	color: #e12300;
 	font-weight: bold;
 }
+
+
+/* end list styles*/
+
 
