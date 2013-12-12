@@ -31,3 +31,8 @@ div#shell960 {
 	width:960px;
 	margin: 0px 0px 0px -165px;
 }
+
+#shell960 .inset {
+	color: red;
+}
+
