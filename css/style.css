@@ -18,7 +18,6 @@ div#shell960 {
 /* start floating image styles */		
 	
 #shell960 .floatRight img, #shell960 .floatLeft img {
-
 	max-width: 450px;
 }
 
@@ -32,7 +31,6 @@ div#shell960 {
 	float:left;
 	clear:left;
 	margin:10px 20px 10px -165px;
-	
 }
 /* end floating image styles */	
 
@@ -45,12 +43,10 @@ div#shell960 {
 
 
 #shell960 p {
-	
 	font-size:1.3em;
 }
 
-#shell960 h3 {
-	
+#shell960 h3 {	
 	font-size:2.2em;
 }
 
