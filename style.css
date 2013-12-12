@@ -1,0 +1,19 @@
+#shell960 div {
+	width: 100%;
+	max-width: 960px;	
+}
+	
+div.right p, div.left p, div.right h3, div.left h3 {
+	padding: 0 115px 0 115px;
+}	
+	
+.floatRight {
+	float:right;
+	margin:0px -175px 0px 20px;
+}
+
+.floatLeft {
+	float:left;
+	margin:0px 20px 0px -175px;
+	
+}
