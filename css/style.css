@@ -13,20 +13,21 @@
 	padding: 0 115px 0 115px;
 } */	
 	
-.floatRight {
+#shell960 .floatRight {
 	float:right;
 	clear:right;
 	margin:0px -175px 0px 20px;
 }
 
-.floatLeft {
+#shell960 .floatLeft {
 	float:left;
 	clear:left;
 	margin:0px 20px 0px -175px;
 	
 }
 
-img.full {
+div.full img {
 	width:100%;
+	max-width: 960px;
 	margin: 0px 0px 0px -115px;
 }
