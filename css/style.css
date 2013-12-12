@@ -7,13 +7,19 @@ div#shell960 {
 .right, .left, .full {
 	width: 630px;
 	margin: 0 auto;
-	
+	margin-bottom: 6em;
+	border-bottom: 1px solid #ccc;
 }
 	
 /* div.right p, div.left p, div.full p, div.right h3, div.left h3, div.full h3 {
 	padding: 0 115px 0 115px;
 } */	
 	
+#shell960 .floatRight img, #shell960 .floatLeft img {
+
+	max-width: 450px;
+}
+
 #shell960 .floatRight {
 	float:right;
 	clear:right;
@@ -39,5 +45,14 @@ div#shell960 {
 #shell960 p {
 	
 	font-size:1.3em;
+}
+
+#shell960 h3 {
+	
+	font-size:2.2em;
+}
+
+#shell960 img {
+
 }
 
