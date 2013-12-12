@@ -41,3 +41,8 @@ div#shell960 {
 	font-size:1.3em;
 }
 
+span.highlight {
+	color: #e12300;
+	font-weight: bold;
+}
+
