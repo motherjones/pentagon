@@ -61,6 +61,10 @@ div#shell960 {
 	list-style: none;
 }
 
+#shell960 li {
+	margin: 1em 0;
+}
+
 span.highlight {
 	color: #e12300;
 	font-weight: bold;
