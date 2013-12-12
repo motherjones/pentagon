@@ -16,18 +16,17 @@
 #shell960 .floatRight {
 	float:right;
 	clear:right;
-	margin:0px -175px 0px 20px;
+	margin:0px -115px 0px 20px;
 }
 
 #shell960 .floatLeft {
 	float:left;
 	clear:left;
-	margin:0px 20px 0px -175px;
+	margin:0px 20px 0px -115px;
 	
 }
 
-div.full img {
-	width:100%;
-	max-width: 960px;
+#shell960 div.full img {
+	width:960px;
 	margin: 0px 0px 0px -115px;
 }
