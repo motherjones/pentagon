@@ -1,9 +1,10 @@
-#shell960 {
+
+div#shell960 {
 	width: 100%;
-	max-width: 960px;	
+	max-width: 960px;
 }
 
-#shell960 .right, #shell960 .left, #shell960 .full {
+.right, .left, .full {
 	width: 630px;
 	margin: 0 auto;	
 }
@@ -15,18 +16,18 @@
 #shell960 .floatRight {
 	float:right;
 	clear:right;
-	margin:0px -115px 0px 20px;
+	margin:10px -165px 10px 20px;
 }
 
 #shell960 .floatLeft {
 	float:left;
 	clear:left;
-	margin:0px 20px 0px -115px;
+	margin:10px 20px 10px -165px;
 }
 
 #shell960 div.full img {
 	width:960px;
-	margin: 0px 0px 0px -115px;
+	margin: 0px 0px 0px -165px;
 }
 
 #shell960 .inset h1 {
