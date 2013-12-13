@@ -90,6 +90,11 @@ ul#nestedList {
 
 /* start table styles */
 
+table.tableZebra {
+	margin: 0;
+	border-spacing: .25rem;
+}
+
 #tableZebra tr, th {
   text-align: left;
   letter-spacing: 1px;
@@ -98,9 +103,9 @@ ul#nestedList {
   color: #ffffff;
   padding: 5px 7px;
 }
+
 #shell960 tr, td {
   padding: 5px 7px;
-
 }
 
 #shell960 tr.oddRow {
