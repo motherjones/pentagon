@@ -91,6 +91,7 @@ ul#nestedList {
 
 table.tableZebra {
 	margin: 0;
+	border-spacing: .25rem;
 }
 
 #tableZebra tr, th {
@@ -101,9 +102,9 @@ table.tableZebra {
   color: #ffffff;
   padding: 5px 7px;
 }
+
 #shell960 tr, td {
   padding: 5px 7px;
-
 }
 
 #shell960 tr.oddRow {
