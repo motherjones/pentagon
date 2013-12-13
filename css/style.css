@@ -4,6 +4,7 @@ div#shell960 {
 	max-width: 960px;
 	font-family: verdana;
     font-size:1.2em;
+	background-color: #fff;
 }
 
 /* end main container styles */
