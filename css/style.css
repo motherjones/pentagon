@@ -3,6 +3,7 @@ div#shell960 {
 	width: 100%;
 	max-width: 960px;
 	font-family: verdana;
+    font-size:1.2em;
 }
 
 /* end main container styles */
@@ -55,7 +56,6 @@ div#shell960 {
 
 /* start typeface styles */
 #shell960 p {
-	font-size:1.2em;
 }
 
 #shell960 h3 {
@@ -72,7 +72,7 @@ div#shell960 {
 }
 
 #shell960 li {
-	margin: 1em 0;
+	margin-bottom:1em;
 }
 
 span.highlight {
