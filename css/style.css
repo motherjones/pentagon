@@ -17,6 +17,7 @@ div#shell960 {
 #shell960 .zebra {
 	background-color: #eee;
 	padding: 30px;
+	border-bottom: none;
 }
 /* end story section div styles */
 	
