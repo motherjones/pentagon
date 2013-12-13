@@ -9,11 +9,10 @@
 /* end main container styles */
 
 /* start story section div styles */
-#shell960 .right, .left, .full {
+#shell960 div.right, div.left, div.full {
 	width: 630px;
 	margin: 0 auto;
 	margin-bottom: 4.5em;
-	border-bottom: 1px solid #ccc;
 }
 
 #shell960 .zebra {
@@ -49,7 +48,7 @@
 
 /* start full-width image styles */	
 #shell960 div.full img.width960 {
-	width:960px;
+	
 	margin: 0px 0px 0px -165px;
 }
 
@@ -134,7 +133,7 @@ and (max-width: 480px) {
 		width: 98%;
 	}
 
-	#shell960 .right, .left, .full, .zebra {
+	#shell960 div.right, div.left, div.full, div.zebra {
 		width: 100%;
 		margin: .2em;
 		border-bottom: none;
@@ -161,9 +160,19 @@ and (max-width: 480px) {
 		width: 100%;
 	}
 	
-	#shell960 div.full img {
+	#shell960 div.full img, #shell960 img {
 		width:100%;
 		margin: 0 auto;
+	}
+	
+	#shell960 div.full img.width960 {
+	
+		margin: 0 auto;
+	}
+	
+	#shell960 div.full img.width630 {
+		
+		width: 100%;
 	}
 	
 	#shell960 ul {
