@@ -12,16 +12,7 @@
 #shell960 div.right, div.left, div.full {
 	width: 630px;
 	margin: 0 auto;
-	margin-bottom: 1em;
-}
-
-#shell960 .zebra {
-	padding: 30px;
-	border-bottom: none;
-}
-
-#shell960 .zebra img {
-	border: 1px solid #ccc;
+	margin-bottom: 2.5em;
 }
 
 /* end story section div styles */
