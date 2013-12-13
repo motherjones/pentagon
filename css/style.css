@@ -47,8 +47,8 @@
 /* end floating image styles */	
 
 /* start full-width image styles */	
-#shell960 div.full img {	
-	margin:0 auto;
+#shell960 div.full img.width960 {	
+	margin:10px 20px 10px -165px;
 }
 /* end full-width image styles */	
 
@@ -164,6 +164,10 @@ and (max-width: 480px) {
 	
 		margin: 0 auto;		
 		width: 100%;
+	}
+	
+	#shell960 div.full img.width960 {	
+		margin:0 auto;
 	}
 	
 	#shell960 ul {
