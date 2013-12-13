@@ -9,7 +9,7 @@
 /* end main container styles */
 
 /* start story section div styles */
-#shell960 .right, .left, .full {
+#shell960 div.right, div.left, div.full {
 	width: 630px;
 	margin: 0 auto;
 	margin-bottom: 4.5em;
@@ -47,12 +47,17 @@
 }
 /* end floating image styles */	
 
-/* start 960px-wide image styles */	
-#shell960 .full img {
+/* start full-width image styles */	
+#shell960 div.full img.width960 {
+	
 	width:960px;
 	margin: 0px 0px 0px -165px;
 }
-/* end 960px-wide image styles */	
+
+#shell960 div.full img.width630 {
+	width:630px;
+}
+/* end full-width image styles */	
 
 /* start typeface styles */
 #shell960 p {
