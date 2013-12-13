@@ -1,7 +1,6 @@
 /* start main container styles */
-div#shell960 {
+#shell960 {
 	width: 100%;
-	max-width: 960px;
 	font-family: verdana;
     font-size:1.2em;
 	background-color: #fff;
@@ -10,10 +9,10 @@ div#shell960 {
 /* end main container styles */
 
 /* start story section div styles */
-.right, .left, .full {
+#shell960 .right, .left, .full {
 	width: 630px;
 	margin: 0 auto;
-	margin-bottom: 6em;
+	margin-bottom: 4.5em;
 	border-bottom: 1px solid #ccc;
 }
 
@@ -57,12 +56,14 @@ div#shell960 {
 
 /* start typeface styles */
 #shell960 p {
+	
 }
 
 #shell960 h3 {
 	
 	font-size: 36px;
 	font-family: 'Bitter', serif;
+	margin: .5em 0em;
 }
 /* end typeface styles */
 
@@ -116,3 +117,51 @@ span.smallCaps {
 
 /* end table styles */
 
+@media only screen 
+and (max-width: 480px) {
+	
+	div#shell960 {
+	    font-size:1em;
+		width: 98%;
+	}
+
+	#shell960 .right, .left, .full, .zebra {
+		width: 100%;
+		margin: .2em;
+		border-bottom: none;
+		padding: 10px;
+	}
+	
+	#shell960 .zebra {
+		padding: 10px;
+	}
+	
+	#shell960 .floatRight {
+		float:none;
+		clear:none;
+		margin: 0 auto;
+	}
+
+	#shell960 .floatLeft {
+		float:none;
+		clear:none;
+		margin: 0 auto;
+	}
+	
+	#shell960 .floatRight img, #shell960 .floatLeft img {
+		width: 100%;
+	}
+	
+	#shell960 div.full img {
+		width:100%;
+		margin: 0 auto;
+	}
+	
+	#shell960 ul {
+		margin: 0 auto;
+		padding: 10px;
+	}
+	
+	
+
+}
