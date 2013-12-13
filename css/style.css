@@ -81,7 +81,9 @@ span.highlight {
 	color: #e12300;
 }
 
-
+ul#nestedList {
+	list-style: square;
+}
 /* end list styles*/
 
 
