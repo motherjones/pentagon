@@ -48,7 +48,7 @@
 
 /* start full-width image styles */	
 #shell960 div.full img {	
-	margin: 0px 0px 0px -165px;
+	margin:0 auto;
 }
 /* end full-width image styles */	
 
