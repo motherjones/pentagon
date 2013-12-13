@@ -2,6 +2,7 @@
 div#shell960 {
 	width: 100%;
 	max-width: 960px;
+	font-family: verdana;
 }
 
 /* end main container styles */
@@ -15,10 +16,15 @@ div#shell960 {
 }
 
 #shell960 .zebra {
-	background-color: #eee;
+	background-color: #f7f7f7;
 	padding: 30px;
 	border-bottom: none;
 }
+
+#shell960 .zebra img {
+	border: 1px solid #ccc;
+}
+
 /* end story section div styles */
 	
 /* start floating image styles */		
@@ -49,14 +55,13 @@ div#shell960 {
 
 /* start typeface styles */
 #shell960 p {
-	font-size:1.3em;
+	font-size:1.2em;
 }
 
 #shell960 h3 {
-	/*  */
 	
-	
-	font-size:2.2em;
+	font-size: 36px;
+	font-family: 'Bitter', serif;
 }
 /* end typeface styles */
 
@@ -71,8 +76,9 @@ div#shell960 {
 }
 
 span.highlight {
-	color: #e12300;
 	font-weight: bold;
+	font-size: 1.4em;
+	color: #e12300;
 }
 
 ul#nestedList {
