@@ -12,7 +12,7 @@
 #shell960 div.right, div.left, div.full {
 	width: 630px;
 	margin: 0 auto;
-	margin-bottom: 4.5em;
+	margin-bottom: 1em;
 }
 
 #shell960 .zebra {
@@ -46,7 +46,7 @@
 /* end floating image styles */	
 
 /* start full-width image styles */	
-#shell960 div.full img.width960 {	
+#shell960 img.width960 {	
 	margin:10px 20px 10px -165px;
 }
 /* end full-width image styles */	
