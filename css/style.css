@@ -88,10 +88,6 @@ ul#nestedList {
 
 /* start table styles */
 
-#tableZebra{
-	padding:2px;
-}
-
 #tableZebra tr, th {
   text-align: left;
   letter-spacing: 1px;
