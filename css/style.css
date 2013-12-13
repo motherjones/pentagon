@@ -2,8 +2,8 @@
 div#shell960 {
 	width: 100%;
 	max-width: 960px;
-	background-color:#fff;
 }
+
 /* end main container styles */
 
 /* start story section div styles */
@@ -12,6 +12,12 @@ div#shell960 {
 	margin: 0 auto;
 	margin-bottom: 6em;
 	border-bottom: 1px solid #ccc;
+}
+
+#shell960 .zebra {
+	background-color: #eee;
+	padding: 30px;
+	border-bottom: none;
 }
 /* end story section div styles */
 	
@@ -46,7 +52,10 @@ div#shell960 {
 	font-size:1.3em;
 }
 
-#shell960 h3 {	
+#shell960 h3 {
+	/*  */
+	
+	
 	font-size:2.2em;
 }
 /* end typeface styles */
