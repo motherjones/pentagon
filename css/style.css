@@ -78,6 +78,34 @@ span.highlight {
 ul#nestedList {
 	list-style: square;
 }
-/* end list styles*/
+/* end list styles */
 
+/* start table styles */
+
+#tableZebra{
+	padding:2px;
+}
+
+#tableZebra tr, th {
+  text-align: left;
+  letter-spacing: 1px;
+  font-variant: small-caps;
+  background: #000000;
+  color: #ffffff;
+  padding: 5px;
+}
+#shell960 tr, td {
+  padding: 5px;
+
+}
+
+#shell960 tr.oddRow {
+	background: #FBB829;
+}
+
+#shell960 tr.evenRow {
+	background: #f7f7f7;
+}
+
+/* end table styles */
 
