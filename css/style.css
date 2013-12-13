@@ -43,6 +43,13 @@
 	margin-right: 10px;
 }
 
+#shell960 .big {
+	width: 110px;
+	height: 110px;
+	margin-top: -10px;
+	margin-left: -120px;
+}
+
 /* end floating image styles */	
 
 /* start full-width image styles */	
